@@ -1,0 +1,29 @@
+{
+    "type": "object",
+    "title": "Post user",
+    "required": [
+        "name",
+        "job",
+        "id",
+        "createdAt"
+    ],
+    "properties": {
+        "name": {
+            "type": "string",
+            "title": "User name"
+        },
+        "job": {
+            "type": "string",
+            "title": "Job position"
+        },
+        "id": {
+            "type": "string",
+            "title": "User title"
+        },
+        "createdAt": {
+            "type": "string",
+            "title": "User created time"
+        }
+    },
+    "additionalProperties": false
+}
